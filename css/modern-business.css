@@ -25,17 +25,18 @@ body {
 
 /* Home Page Carousel */
 
-header.carousel {
-    height: 50%;
+.carousel {
+    height: 400px;
+    width:100%;
 }
 
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
+.carousel .item,
+.carousel .item.active,
+.carousel .carousel-inner {
     height: 100%;
 }
 
-header.carousel .fill {
+.carousel .fill {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -113,7 +114,7 @@ footer {
     padding: 0;
 }
 .nav>li{
-    margin-top: 15px!important;
+    margin-top: 20px!important;
 }
 
 .topbuffer{
@@ -128,5 +129,35 @@ footer {
 
 .trianglebullets li:before {
     content: "\2023 \0020";
+
+}
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
+}
+.fore-color-yellow{
+    color:#ffcc00;
+}
+.fore-color-white{
+    color:white;
+}
+.text-size-big{
+    font-size: 80px;
+    text-align: right;
+}
+.text-size-medium{
+    font-size: 26px;
+}
+.text-size-small{
+    font-size: 15px;
+}
+.bg-handshake{
+    height: 200px;
+}
+.margin-top{
+    margin-top: 14px;
 }
 
