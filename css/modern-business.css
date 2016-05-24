@@ -70,7 +70,7 @@ header.carousel .fill {
 /* Footer Styles */
 
 footer {
-    margin: 50px 0;
+    margin: 50px 0 0;
 }
 
 /* Responsive Styles */
@@ -90,4 +90,12 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+.float-left{
+    float: left;
+}
+
+.margin-right{
+    margin-right: 25px;
 }
