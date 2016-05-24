@@ -117,5 +117,16 @@ footer {
 }
 
 .topbuffer{
-    margin-top: 70px;
+    margin-top: 50px;
 }
+
+.trianglebullets{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.trianglebullets li:before {
+    content: "\2023 \0020";
+}
+
