@@ -91,11 +91,27 @@ footer {
         height: 70%;
     }
 }
-
 .float-left{
     float: left;
 }
 
-.margin-right{
+.margin-right {
     margin-right: 25px;
+}
+.logo-height{
+    height: 69px;
+    width: 160px;
+    margin-right: 25px;
+}
+.uncc-logo-height{
+    height: 60px !important;
+}
+.navbar {
+    min-height: 70px;
+}
+.navbar-brand {
+    padding: 0;
+}
+.nav>li{
+    margin-top: 15px!important;
 }
