@@ -115,3 +115,7 @@ footer {
 .nav>li{
     margin-top: 15px!important;
 }
+
+.topbuffer{
+    margin-top: 70px;
+}
