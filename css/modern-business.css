@@ -178,6 +178,9 @@ footer {
 .text-color-blue{
     color: #00a8e2;
 }
+.margin-right{
+    margin-right: 10px;
+}
 
 .padding10{
     padding-left: 10px;
@@ -187,3 +190,8 @@ footer {
 .contactfooter{
     margin: 200px 0 0;
 }
+
+.margin-top-none{
+    margin-top: -25px;
+}
+
