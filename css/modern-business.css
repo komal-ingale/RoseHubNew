@@ -161,3 +161,10 @@ footer {
     margin-top: 14px;
 }
 
+.verticalborder{
+    border-left: medium solid #005A2D;
+}
+
+.borderrightbuffers{
+    margin-left: 10px;
+}
