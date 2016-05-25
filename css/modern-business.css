@@ -168,7 +168,6 @@ footer {
 .borderrightbuffers{
     margin-left: 10px;
 }
-
 .topmargin{
     margin-top: 30px;
 }
@@ -176,3 +175,8 @@ footer {
 .float-left{
     float: left;
 }
+
+.text-color-blue{
+    color: #00a8e2;
+}
+
