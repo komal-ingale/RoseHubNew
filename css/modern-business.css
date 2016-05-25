@@ -162,7 +162,7 @@ footer {
 }
 
 .verticalborder{
-    border-left: medium solid #005A2D;
+    border-left: medium solid #00A8E2;
 }
 
 .borderrightbuffers{
@@ -173,6 +173,7 @@ footer {
 }
 
 .float-left{
+    float: left;
     float: left;
 }
 
