@@ -92,9 +92,7 @@ footer {
         height: 70%;
     }
 }
-.float-left{
-    float: left;
-}
+
 
 .margin-right {
     margin-right: 25px;
@@ -181,3 +179,11 @@ footer {
     color: #00a8e2;
 }
 
+.padding10{
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+.contactfooter{
+    margin: 200px 0 0;
+}
