@@ -196,21 +196,19 @@ footer {
 .margin-top-none{
     margin-top: -25px;
 }
-
-#myCarousel{
-    padding-left: 0;
-    padding-right: 0;
+.container-fluid {
+    padding-right: 0 !important;
+     padding-left: 0!important;
 }
-
-#myCarousel1{
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .margin-top-large{
     margin-top: 70px;
 }
 
-.margin-top-medium{
+.margin-top-medium {
     margin-top: 40px;
+}
+.iframe-size{
+    height:300px;
+    width:420px;
+
 }
