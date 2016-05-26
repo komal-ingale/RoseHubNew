@@ -144,7 +144,7 @@ footer {
 }
 .text-size-big{
     font-size: 80px;
-    text-align: right;
+    /*text-align: right;*/
 }
 .text-size-medium{
     font-size: 26px;
@@ -205,3 +205,6 @@ footer {
     padding-right: 0;
 }
 
+.margin-top-large{
+    margin-top: 70px;
+}
