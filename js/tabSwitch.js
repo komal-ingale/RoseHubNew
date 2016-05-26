@@ -12,10 +12,15 @@ $(document).ready(function() {
     });
     // on load of the page: switch to the currently selected tab
     var hash =localStorage.getItem('activeTab');
-    if (hash != null) {
+    if(hash==null || hash==='#'){
+        hash='#home';
+    }
         $(hash).addClass('active').siblings().removeClass('active');
         // Change/remove current tab to active
         var selector = "a[href=" + hash + "]";
+    if(hash==='#project' || hash ==='#faculty' || hash==='#year'){
+        $('#about').parent('li').addClass('active').siblings().removeClass('active');
+    }else {
         $(selector).parent('li').addClass('active').siblings().removeClass('active');
     }
 });
